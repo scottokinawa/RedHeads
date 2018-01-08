@@ -32,7 +32,7 @@ If you view Adam Geitgey’s Medium post it goes into depth on how this works.
 
 When using it to identify myself apart from other redheads, it worked remarkably well. Just for fun I tried to use it on my dog, but that didn’t work. It also didn’t work when using it on older pictures of myself when I was 12 years old. Of course that gets more complicated even for the human eye.
 
-### Pitfalls of my approach
+### Pitfalls of my approach:
 The biggest pitfalls to my approach are not having enough pictures and imbalanced data.
 
 Why are these possible issues?
@@ -40,5 +40,5 @@ Why are these possible issues?
 CNN’s need a lot of pictures to work well. Many times CNN models use millions of pictures, of course this is not always necessary, but leads to better results.
 Imbalanced data can lead to over fitting which is not good. For instance if you have 90% of your data in class 1 and 10% in class 2, then the model will just start assuming everything is class 1. To aid this process I did bring in drop out as a penalty measure, but it could have been beneficial to bring in synthetic sampling or just take more pictures of myself.
 
-### Results
+### Results:
 My CNN model did work very well leading to an accuracy of 94%! However, as discussed before some pitfalls may have boosted this accuracy. When I used ageitgey’s Face Detection library, it was able to recognize me every time, however I only tried 50 times. Given the 99.38% accuracy found by Adam Geitgey, it would make obvious sense to use Face Recognition when differentiating human faces. However, simple CNN’s do seem to work rather well at differentiating me amongst my fellow red headed men. This small project lead to interesting results and I am glad A.I. can differentiate me from the other red heads when strangers can’t :)!
