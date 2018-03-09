@@ -1,5 +1,8 @@
 # RedHeads
 
+[See Code](https://github.com/scottokinawa/RedHeads/blob/master/CNN.ipynb)
+
+
 I wanted to test how well a simple CNN compares to a more complex facial recognition library in distinguishing one face from another.
 
 For the sake of this small project I thought it would be fun to compare my face amongst other red headed men. People seem to always confused redheads together and I was wondering if a CNN would too. I have usually seen simple CNN's classify dogs from cats or even certain breeds of dogs from each other; however is it adept enough to distinguish faces from another?
