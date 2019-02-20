@@ -8,14 +8,14 @@ I wanted to test how well a simple CNN compares to a more complex facial recogni
 For the sake of this small project I thought it would be fun to compare my face amongst other red headed men. People seem to always confused redheads together and I was wondering if a CNN would too. I have usually seen simple CNN's classify dogs from cats or even certain breeds of dogs from each other; however is it adept enough to distinguish faces from another?
 
 ### My hypothesis:
-- I thought it the CNN would be able to detect my face from other redheads but at an accuracy of 80% if that. That means that the CNN doesn't really come close to its facial recognition counter part in identifying faces. 
+- I think the CNN will be able to detect my face from other redheads but at an accuracy of at most 80%. That means that the CNN doesn't really come close to its facial recognition counter part in identifying faces. 
 
 ### How I went about my project: 
 #### How I collected the data: 
 I was able to scrape 1,300 pictures of redheaded men around the ages of 20-30. All the pictures had their faces visible and had different backgrounds. For my own pictures, I took every pictures off of facebook of myself I could grab. For the rest I took pictures of myself in different back grounds. I was able to collect 400 pictures of myself after many many selfies... It was my first time feeling like a full fledged mileniall taking so many selfies of myself haha.
 
 #### CNN:
-I created a simple CNN algorithm with three convolutional layers, a 50% drop out and augmentation. I ran the code on AWS.
+I created a simple CNN algorithm with three convolutional layers, a 50% drop out and some augmentation. I ran the code on AWS.
 
 I don’t want to get too deep into how a CNN works, but as seen above there is a convolutional layer, pooling layer, fully connected layer and output layer. This is very high level, as there are different activation functions, penalties and softmax functions involved as well.
 
